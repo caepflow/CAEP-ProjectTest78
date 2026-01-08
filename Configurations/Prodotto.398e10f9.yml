@@ -1,0 +1,30 @@
+id: f0ba6acb-abbd-059c-0fa3-cc840d675f1c
+type: entity
+interactions: []
+annotations:
+  - namespace: c4modeler
+    name: position
+    value:
+      314ad8a5-9846-45db-90b3-d6a86af90e3a:
+        x: 305.6735436893204
+        y: 243.80461165048544
+entityType: domain
+name: Prodotto
+description: Prodotto
+useRepository: true
+fields:
+  - type: string
+    description: New Field
+    isPublic: true
+    enumerable: true
+    name: name
+  - type: string
+    description: New Field
+    isPublic: true
+    enumerable: true
+    name: type
+  - type: decimal
+    description: New Field
+    isPublic: true
+    enumerable: true
+    name: prezzo
