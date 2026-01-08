@@ -1,0 +1,42 @@
+id: a99c6a35-e007-42db-a1f6-25d84cc5275e
+type: service
+interactions:
+- targetId: bf783782-8266-4880-bd1e-cbabb0b89770
+  type: database
+  level: container
+annotations:
+- namespace: c4modeler
+  name: position
+  value:
+    f4eba468-7a9c-40b7-bfaa-870d8092e0dc:
+      x: 420
+      y: 331.5
+    0333dc2c-e36d-4d8d-ab5a-93cf9ec9141d:
+      x: 252
+      y: 422
+    b4017da7-13c8-4c51-99cf-a8f2a21af19e:
+      x: 420
+      y: 419.5
+- namespace: c4modeler
+  name: boundary
+  value:
+    x: 421.5
+    y: 251.5
+    width: 843
+    height: 503
+target:
+  framework: net
+  version: 9
+generationMode: default
+name: NewService
+description: Backend Microservice .NET
+namespace: Ca.CaepFlow.Service
+data:
+  orm: EntityFrameworkCore
+children:
+- id: 8d1c39e7-1bcd-471a-b127-dadc7ff044d4
+  type: controller
+- id: ee0eba20-2ca3-438f-82bd-76dfabc2e332
+  type: contracts
+- id: 314ad8a5-9846-45db-90b3-d6a86af90e3a
+  type: data
